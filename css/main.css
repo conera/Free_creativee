@@ -143,7 +143,7 @@ header {
 
 /*///////////////////////////////////////*/
 .section2 {
-    padding: 70px 0px 133px;
+    padding: 70px 0px 77px;
     font-family: '20 Kopeek';
 }
 
@@ -171,7 +171,7 @@ header {
 .advantages{
     display: flex;
     justify-content: space-between;
-    /*max-width: 100%;*/
+    margin-bottom: 120px;
 }
 .heading_three{
     Font-size: 55px;
@@ -191,18 +191,41 @@ header {
 }
 .column1{
     max-width: 123px;
+    display: flex;
 }
 .column2{
-    max-width: 147px
+    max-width: 147px;
+    display: flex;
 }
 .column3{
-    max-width: 122px
+    max-width: 122px;
+    display: flex;
 }
 .column4{
-
+    display: flex;
 }
 .column5{
     max-width: 300px;
+    display: flex;
+}
+.cost_paragraph{
+    max-width: 396px;
+    Line-height: 25px;
+    font-family: '20 Kopeek';
 }
 
+.blue_paragraph{
+    display: inline-block;
+    padding: 11px 7px 11px 13px;
+    color: #ffff;
+    background-color: #2B59C3;
+    border-radius: 5px;
+
+}
+.heading_four{
+    Font-size: 38px;
+    Line-height: 42px;
+    font-weight: normal;
+}
+0
 
