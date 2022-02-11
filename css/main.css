@@ -1,127 +1,208 @@
-div, p, input, button, form, span, a ,ul , li{
-	box-sizing: border-box;
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Book.eot');
+    src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
-h1, h2, h3, h4, h5, h6, p{
-	margin:0;
-}
-a{
-	text-decoration: none;
-}
-.container{
-	width: 1170px;
-	margin: 0 auto;
-}
-.wrapper{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-ul{
-	list-style: none;
-}
-header{
-	background: #d0d0d0;
-	color: #ffff;
-	padding: 30px 0px 0px;
-	position: relative;
 
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
 }
-.logo{
-	display: flex;
-	max-width: 300px;
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
-.logo a:hover{
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	transition: 0.2s;
+
+a {
+    text-decoration: none;
 }
-.logo p{
-	margin-left: 22px;
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
-.contacts{
-	display: flex;
-	justify-content: space-between;
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.contacts a{
-	color: #ffff;
-	text-decoration: none;
-	border: 1px solid #ffff;
-	padding: 9px 15px ;
-	border-radius: 20px;
-	margin: 0px 12px 0px 12px;
-	transition: 0.2s;
+
+ul {
+    list-style: none;
+}
+
+header {
+    background: #d0d0d0;
+    color: #ffff;
+    padding: 30px 0px 0px;
+    position: relative;
 
 }
 
-.contacts a:hover{
-	color: #ffff;
-	background: #000;
-	
-	border: none;
+.logo {
+    display: flex;
+    max-width: 300px;
+
 
 }
-.contacts .ds{
-	padding: 9px 11px ;
-	margin-right: 0px;
+
+.logo a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
 }
 
-.contacts .phone{
-	border-radius: 15px;
-	padding: 7px 27px 7px 33px;
-	margin-left: 0px;
+.logo p {
+    margin-left: 22px;
+    font-family: '20 Kopeek';
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts a {
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin: 0px 12px 0px 12px;
+    transition: 0.2s;
 
 }
+
+.contacts a:hover {
+    color: #ffff;
+    background: #000;
+
+    border: none;
+
+}
+
+.contacts .ds {
+    padding: 9px 11px;
+    margin-right: 0px;
+}
+
+.contacts .phone {
+    border-radius: 15px;
+    padding: 7px 27px 7px 33px;
+    margin-left: 0px;
+
+}
+
 /*///////////////////////////////////////*/
-.section{
-	background: url("../images/01 1.png") no-repeat center/cover; 
-	padding: 269px 0px 309px;
-}
-.title{
-	font-size: 55px ;
-	margin-bottom: 30px;
-	Line-height: 55px;
-}
-.sub_title{
-	margin-bottom: 65px;
-	font-size: 34px;
-	Line-height: 37px;
-}
-.btn_link a{
-	background: #ffff;
-	border-radius: 40px;
-	padding: 23px 47px;
-	color: #000;
-	transition: 0.3s;
-}
-.btn_link a:hover{
-	color:#ffff;
-	background:#000;
+.section {
+    background: url("../images/01 1.png") no-repeat center/cover;
+    padding: 269px 0px 0px;
+    height: 100vh;
 }
 
-.btn_link{
-	max-width: 434px;
-	display: flex;
-	
+.title {
+    font-size: 55px;
+    margin-bottom: 30px;
+    Line-height: 55px;
+    font-family: '20 Kopeek';
 }
-.margon{
-	margin-right: 20px;
+
+.sub_title {
+    margin-bottom: 65px;
+    font-size: 34px;
+    Line-height: 37px;
+    font-family: '20 Kopeek';
 }
+
+.btn_link  {
+    background: #ffff;
+    border-radius: 40px;
+    padding: 23px 47px;
+    color: #000;
+    transition: 0.3s;
+    font-family: '20 Kopeek';
+
+}
+
+.btn_link:hover {
+    color: #ffff;
+    background: #000;
+}
+
+
+
+.mar-r {
+    margin-right: 20px;
+}
+
 /*///////////////////////////////////////*/
-.section2{
-	padding: 70px 0px 75px;
+.section2 {
+    padding: 70px 0px 133px;
+    font-family: '20 Kopeek';
 }
-.heading_two{
-	Line-height: 42px;
-	margin-bottom: 15px;
-	font-size: 38px;
+
+.heading_two {
+    Line-height: 42px;
+    margin-bottom: 15px;
+    font-size: 38px;
+
 }
-.uniq_set{
-	max-width: 450px;
-	font-size: 18px;
-	Line-height: 25px;
-	margin-left: 30px;
-	font-weight: 400;
+
+.uniq_set {
+    max-width: 450px;
+    font-size: 18px;
+    Line-height: 25px;
+    margin-left: 30px;
+
+    font-weight: 400;
+
 }
-.justify_none{  
-	justify-content: flex-start;
+.justify_none {
+    justify-content: flex-start;
+    margin-bottom: 150px;
+
 }
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    /*max-width: 100%;*/
+}
+.heading_three{
+    Font-size: 55px;
+    Line-height: 55px;
+    font-weight:400;
+    margin-bottom: 65px;
+}
+.first_let{
+    font-size: 55px;
+    Line-height: 55px;
+    position: relative;
+    top: -24px;
+}
+.box{
+    Font-size: 18px;
+    Line-height: 25px;
+}
+.column1{
+    max-width: 123px;
+}
+.column2{
+    max-width: 147px
+}
+.column3{
+    max-width: 122px
+}
+.column4{
+
+}
+.column5{
+    max-width: 300px;
+}
+
+
