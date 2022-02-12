@@ -344,4 +344,5 @@ form input{
 }
 .bb label{
     display: inline;
+    cursor: pointer;
 }
