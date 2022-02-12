@@ -14,7 +14,9 @@
 div, p, input, button, form, span, a, ul, li {
     box-sizing: border-box;
 }
-
+p{
+    font-size: 18px;
+}
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -24,7 +26,7 @@ a {
 }
 
 .container {
-    width: 1170px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -101,23 +103,22 @@ header {
 
 /*///////////////////////////////////////*/
 .section {
-    background: url("../images/01 1.png") no-repeat center/cover;
+    background: url("../images/bg.jpg") no-repeat center/cover;
     padding: 269px 0px 0px;
     height: 100vh;
+    font-family: '20 Kopeek';
 }
 
 .title {
     font-size: 55px;
     margin-bottom: 30px;
     Line-height: 55px;
-    font-family: '20 Kopeek';
 }
 
 .sub_title {
     margin-bottom: 65px;
     font-size: 34px;
     Line-height: 37px;
-    font-family: '20 Kopeek';
 }
 
 .btn_link  {
@@ -126,8 +127,6 @@ header {
     padding: 23px 47px;
     color: #000;
     transition: 0.3s;
-    font-family: '20 Kopeek';
-
 }
 
 .btn_link:hover {
@@ -135,13 +134,11 @@ header {
     background: #000;
 }
 
-
-
 .mar-r {
     margin-right: 20px;
 }
 
-/*///////////////////////////////////////*/
+/*//////////////////////////////////////SECTION2////////////////////////////////////////////////////////////////////*/
 .section2 {
     padding: 70px 0px 77px;
     font-family: '20 Kopeek';
@@ -156,7 +153,6 @@ header {
 
 .uniq_set {
     max-width: 450px;
-    font-size: 18px;
     Line-height: 25px;
     margin-left: 30px;
 
@@ -168,10 +164,11 @@ header {
     margin-bottom: 150px;
 
 }
+/*/////////////////////////////////ARTICLE////////////////////////////////////////////*/
 .advantages{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .heading_three{
     Font-size: 55px;
@@ -188,33 +185,29 @@ header {
 .box{
     Font-size: 18px;
     Line-height: 25px;
+    display: flex;
 }
 .column1{
     max-width: 123px;
-    display: flex;
 }
 .column2{
     max-width: 147px;
-    display: flex;
 }
 .column3{
     max-width: 122px;
-    display: flex;
 }
 .column4{
-    display: flex;
 }
 .column5{
     max-width: 300px;
-    display: flex;
 }
+/*/////////////////////////////////ARTICLE////////////////////////////////////////////*/
 .cost_paragraph{
     max-width: 396px;
     Line-height: 25px;
-    font-family: '20 Kopeek';
 }
 
-.blue_paragraph{
+.blue_span{
     display: inline-block;
     padding: 11px 7px 11px 13px;
     color: #ffff;
@@ -226,6 +219,129 @@ header {
     Font-size: 38px;
     Line-height: 42px;
     font-weight: normal;
+    margin-right: 82px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row-reverse;
 }
-0
+/*//////////////////////////////////////SECTION3////////////////////////////////////////////////////////////////////*/
+.section3{
+    padding: 74px 0px 0px;
+    font-family: "20 Kopeek";
+}
+.section3 p{
+    Line-height: 25px;
+    display: flex;
+    margin-bottom: 100px;
 
+}
+.section3 p:last-child{
+    margin-bottom: 53px;
+}
+.section3 h3{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+.project{
+    border: 1px solid #000;
+    margin-left: 89px;
+}
+.blue{
+    background-color: #2B59C3;
+    color: #ffff;
+    font-size: 26px;
+    margin-left: 350px;
+}
+.img_section3{
+    padding-bottom: 38px;
+}
+.amperia{
+    Font-size: 55px;
+    Line-height: 55px;
+}
+
+.section4{
+    padding: 100px 0px;
+    font-family: "20 Kopeek";
+}
+.hhhh{
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+}
+.blue_box{
+    padding: 11px 39px 18px 14px;
+    color: #ffff;
+    background-color: #2B59C3;
+    line-height: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    max-width: 459px;
+}
+.blue_box h3{
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.w-max{
+    max-width: 439px;
+    padding: 11px 14px 18px 14px;
+}
+.m-b{
+    margin-bottom: 77px;
+}
+.ttt{
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 11px;
+}
+.pppp{
+    margin-bottom: 27px;
+}
+.wrapper_second{
+    display: flex;
+    margin-bottom: 21px;
+}
+.wrapper_second div:nth-child(1){
+    margin-right: 15px;
+
+}
+.wrapper_second div:nth-child(2){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.wrapper_second div:nth-child(3){
+    margin-right: 15px;
+}
+
+form label{
+    display: none;
+}
+form input{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 23px 150px 23px 29px;
+
+}
+.btn{
+    padding: 23px 47px;
+    color: #ffff;
+    background-color: #2B59C3;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: #264BA1;
+}
+.bb a{
+    color: #2B59C3;
+}
+.bb label{
+    display: inline;
+}
