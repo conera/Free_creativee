@@ -41,10 +41,10 @@ ul {
 }
 
 header {
-    background: #d0d0d0;
+    width: 100%;
     color: #ffff;
     padding: 30px 0px 0px;
-    position: relative;
+    position: absolute;
 
 }
 
@@ -63,6 +63,7 @@ header {
 .logo p {
     margin-left: 22px;
     font-family: '20 Kopeek';
+    font-size: 15px;
 }
 
 .contacts {
@@ -155,12 +156,12 @@ header {
     max-width: 450px;
     Line-height: 25px;
     margin-left: 30px;
-
+    margin-bottom: 23px;
     font-weight: 400;
 
 }
 .justify_none {
-    justify-content: flex-start;
+
     margin-bottom: 150px;
 
 }
@@ -219,7 +220,7 @@ header {
     Font-size: 38px;
     Line-height: 42px;
     font-weight: normal;
-    margin-right: 82px;
+
     margin-bottom: 15px;
     display: flex;
     flex-direction: row-reverse;
@@ -293,13 +294,13 @@ header {
 .m-b{
     margin-bottom: 77px;
 }
-.ttt{
+.title_application{
     font-weight: normal;
     font-size: 38px;
     line-height: 42px;
     margin-bottom: 11px;
 }
-.pppp{
+.p_connection{
     margin-bottom: 27px;
 }
 .wrapper_second{
@@ -325,8 +326,8 @@ form input{
     border: 1px solid #000;
     border-radius: 10px;
     padding: 23px 150px 23px 29px;
-
 }
+
 .btn{
     padding: 23px 47px;
     color: #ffff;
