@@ -169,7 +169,7 @@ header {
 .advantages{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 140px;
+    margin-bottom: 140px;   /* delete margin in last section, color font white*/
 }
 .heading_three{
     Font-size: 55px;
@@ -182,17 +182,18 @@ header {
     Line-height: 55px;
     position: relative;
     top: -24px;
+    right: 8px;
 }
 .box{
-    Font-size: 18px;
-    Line-height: 25px;
+    Font-size: 18px;            /* fs: 15px*/
+    Line-height: 25px;      /* lh: 19px*/
     display: flex;
 }
 .column1{
     max-width: 123px;
 }
 .column2{
-    max-width: 147px;
+    max-width: 147px;           /*one general .column 200px*/
 }
 .column3{
     max-width: 122px;
@@ -261,7 +262,7 @@ header {
     Font-size: 55px;
     Line-height: 55px;
 }
-
+/*//////////////////////////////////////SECTION 4////////////////////////////////////////////////////////////////////*/
 .section4{
     padding: 100px 0px;
     font-family: "20 Kopeek";
@@ -346,4 +347,83 @@ form input{
 .bb label{
     display: inline;
     cursor: pointer;
+}
+/*//////////////////////////////////////SECTION 5////////////////////////////////////////////////////////////////////*/
+.section5{
+    padding: 50px 0px;
+    font-family: "20 Kopeek";
+}
+.wrap_add{
+    align-items: stretch;
+    justify-content: stretch;
+    margin-bottom: 60px;
+}
+.heading_creation {
+    font-size: 55px;
+    font-weight: normal;
+    line-height: 55px;
+    margin-bottom: 85px;
+}
+.icon_box{
+    max-width: 283px;
+    margin-right: 97px;
+    width: 100%;
+}
+.icon_box h3{
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: normal;
+}
+.icon_box img{
+    margin-bottom: 23px;
+}
+.rest_box{
+    max-width: 160px;
+}
+.rest_box p{
+    font-size: 15px;
+    line-height: 19px;
+}
+.rest_box h4{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.wrapper div:nth-child(2){
+    margin-right: 15px;
+}
+.wrapper div:nth-child(3){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.wrapper div:nth-child(4){
+    margin-left: 15px;
+    margin-right: 0px;
+}
+/*//////////////////////////////////////SECTION 6////////////////////////////////////////////////////////////////////*/
+.section6{
+    padding: 282px 0px 80px;
+    font-family: "20 Kopeek";
+    background: url("../images/backpack.jpg") no-repeat center/cover;
+}
+.heading_quality{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: normal;
+    color: #ffff;
+    margin-bottom: 65px;
+}
+.article2{
+    color: #ffff;
+    margin-bottom: 0;
+
+}
+.box_s{
+    Font-size: 15px;
+    Line-height: 19px;
+    display: flex;
+}
+.same_column{
+    max-width: 200px;
 }
