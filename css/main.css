@@ -288,12 +288,16 @@ header {
     font-weight: normal;
     margin-bottom: 30px;
 }
+.img_dislife{
+    margin-right: 30px;
+}
 .w-max{
     max-width: 439px;
     padding: 11px 14px 18px 14px;
 }
 .m-b{
     margin-bottom: 77px;
+    align-items: stretch;
 }
 .title_application{
     font-weight: normal;
