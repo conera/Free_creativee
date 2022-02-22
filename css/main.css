@@ -103,7 +103,7 @@ header {
 }
 
 /*///////////////////////////////////////*/
-.section {
+.section_header {
     background: url("../images/bg.jpg") no-repeat center/cover;
     padding: 269px 0px 0px;
     height: 100vh;
@@ -121,7 +121,9 @@ header {
     font-size: 34px;
     Line-height: 37px;
 }
-
+/*.btn_header_links{*/
+/*    display: flex;*/
+/*}*/
 .btn_link  {
     background: #ffff;
     border-radius: 40px;
@@ -140,7 +142,7 @@ header {
 }
 
 /*//////////////////////////////////////SECTION2////////////////////////////////////////////////////////////////////*/
-.section2 {
+.section_branded_style {
     padding: 70px 0px 77px;
     font-family: '20 Kopeek';
 }
@@ -161,7 +163,7 @@ header {
 
 }
 .justify_none {
-
+    justify-content: stretch;
     margin-bottom: 150px;
 
 }
@@ -227,20 +229,20 @@ header {
     flex-direction: row-reverse;
 }
 /*//////////////////////////////////////SECTION3////////////////////////////////////////////////////////////////////*/
-.section3{
+.section_projects{
     padding: 74px 0px 0px;
     font-family: "20 Kopeek";
 }
-.section3 p{
+.section_projects p{
     Line-height: 25px;
     display: flex;
     margin-bottom: 100px;
 
 }
-.section3 p:last-child{
+.section_projects p:last-child{
     margin-bottom: 53px;
 }
-.section3 h3{
+.section_projects h3{
     display: flex;
     align-items: center;
     font-weight: normal;
@@ -263,7 +265,7 @@ header {
     Line-height: 55px;
 }
 /*//////////////////////////////////////SECTION 4////////////////////////////////////////////////////////////////////*/
-.section4{
+.section_application{
     padding: 100px 0px;
     font-family: "20 Kopeek";
 }
@@ -312,18 +314,9 @@ header {
     display: flex;
     margin-bottom: 21px;
 }
-.wrapper_second div:nth-child(1){
-    margin-right: 15px;
-
+.margin_right{
+    margin-right: 30px;
 }
-.wrapper_second div:nth-child(2){
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.wrapper_second div:nth-child(3){
-    margin-right: 15px;
-}
-
 form label{
     display: none;
 }
@@ -353,7 +346,7 @@ form input{
     cursor: pointer;
 }
 /*//////////////////////////////////////SECTION 5////////////////////////////////////////////////////////////////////*/
-.section5{
+.stages_of_creation{
     padding: 50px 0px;
     font-family: "20 Kopeek";
 }
@@ -394,19 +387,19 @@ form input{
     line-height: 25px;
     margin-bottom: 15px;
 }
-.wrapper div:nth-child(2){
+.wrap_add div:nth-child(2){
     margin-right: 15px;
 }
-.wrapper div:nth-child(3){
+.wrap_add div:nth-child(3){
     margin-left: 15px;
     margin-right: 15px;
 }
-.wrapper div:nth-child(4){
+.wrap_add div:nth-child(4){
     margin-left: 15px;
     margin-right: 0px;
 }
 /*//////////////////////////////////////SECTION 6////////////////////////////////////////////////////////////////////*/
-.section6{
+.guarantee_of_quality{
     padding: 282px 0px 80px;
     font-family: "20 Kopeek";
     background: url("../images/backpack.jpg") no-repeat center/cover;
@@ -430,4 +423,84 @@ form input{
 }
 .same_column{
     max-width: 200px;
+}
+.footer{
+    padding: 150px 0px 23px;
+    font-family: "20 Kopeek";
+}
+.headin_contact_us{
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+.form_footer{
+    max-width: 467px;
+}
+.wrapper_footer{
+    display: inline-block;
+}
+.mar_none{
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.margin_bottom{
+    margin-bottom: 21px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.m_b{
+    margin-bottom: 48px;
+}
+.d_flex{
+    justify-content: normal;
+    align-items: normal;
+    margin-bottom: 127px;
+}
+.margin_right_box{
+    margin-right: 103px;
+}
+.cont_info{
+    font-size: 26px;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+.mb_media{
+    margin-bottom: 14px;
+    font-weight: normal;
+}
+.in_media{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.in_media p{
+    font-size: 18px;
+
+}
+.white_link{
+    color: #ffff;
+    display: block;
+    margin-top: 25px;
+}
+.blue_bg{
+    color: #ffff;
+    background-color: #2B59C3;
+    border-radius: 10px;
+    max-width: 255px;
+}
+.footer_box1{
+    padding: 6px 80px 16px 13px;
+    margin-bottom: 0;
+}
+.footer_box2{
+    padding: 6px 4px 16px 8px;
+}
+.footer_box3{
+    padding: 6px 12px 16px 8px;
+}
+.footer_box4{
+    padding: 6px 6px 16px 16px;
+    margin-bottom: 38px;
 }
