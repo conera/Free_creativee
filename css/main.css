@@ -154,13 +154,18 @@ header {
 
 }
 
+.paragrph_set p:first-child{
+    margin-bottom: 30px;
+}
 .uniq_set {
     max-width: 450px;
     Line-height: 25px;
     margin-left: 30px;
-    margin-bottom: 23px;
     font-weight: 400;
 
+}
+.img_sectionn{
+    max-width: 100%;
 }
 .justify_none {
     justify-content: stretch;
@@ -233,15 +238,6 @@ header {
     padding: 74px 0px 0px;
     font-family: "20 Kopeek";
 }
-.section_projects p{
-    Line-height: 25px;
-    display: flex;
-    margin-bottom: 100px;
-
-}
-.section_projects p:last-child{
-    margin-bottom: 53px;
-}
 .section_projects h3{
     display: flex;
     align-items: center;
@@ -250,6 +246,9 @@ header {
 .project{
     border: 1px solid #000;
     margin-left: 89px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
 }
 .blue{
     background-color: #2B59C3;
@@ -257,14 +256,36 @@ header {
     font-size: 26px;
     margin-left: 350px;
 }
+.image{
+    width:1110px ;
+}
 .img_section3{
-    padding-bottom: 38px;
+    margin-bottom: 38px;
+    width: 100%;
+}
+.image_branded_style{
+    max-width: 634px;
+}
+.img_lifecare{
+    width: 100%;
+}
+.wrap_amperia{
+    justify-content: stretch;
+    align-items: flex-start;
+}
+.amperia_paragraph{
+    margin-bottom: 100px;
+    Line-height: 25px;
+}
+.add_margin{
+    margin-bottom: 53px;
 }
 .amperia{
     Font-size: 55px;
     Line-height: 55px;
+    margin-bottom: 4px;
 }
-/*//////////////////////////////////////SECTION 4////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////SECTION APPLICATION////////////////////////////////////////////////////////////////////*/
 .section_application{
     padding: 100px 0px;
     font-family: "20 Kopeek";
@@ -291,6 +312,14 @@ header {
     margin-bottom: 30px;
 }
 .img_dislife{
+
+    width: 100%;
+}
+.img_dislife_box_mobile{
+    display: none;
+}
+.img_dislife_box{
+    max-width: 635px;
     margin-right: 30px;
 }
 .w-max{
@@ -320,13 +349,16 @@ header {
 form label{
     display: none;
 }
-form input{
+form .margin_right input{
     border: 1px solid #000;
     border-radius: 10px;
     padding: 23px 150px 23px 29px;
+    width: 100%;
+    max-width: 350px;
 }
 
 .btn{
+    display: inline-block;
     padding: 23px 47px;
     color: #ffff;
     background-color: #2B59C3;
@@ -344,6 +376,10 @@ form input{
 .bb label{
     display: inline;
     cursor: pointer;
+}
+.d_flexx{
+    display: flex;
+    align-items: flex-start
 }
 /*//////////////////////////////////////SECTION 5////////////////////////////////////////////////////////////////////*/
 .stages_of_creation{
@@ -440,6 +476,13 @@ form input{
 .wrapper_footer{
     display: inline-block;
 }
+form .mar_none input{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 23px 150px 23px 29px;
+    width: 100%;
+    max-width: 350px;
+}
 .mar_none{
     margin-bottom: 10px;
     margin-right: 0px;
@@ -503,4 +546,30 @@ form input{
 .footer_box4{
     padding: 6px 6px 16px 16px;
     margin-bottom: 38px;
+}
+.logo{
+    position: relative;
+    animation: logos 5s infinite;
+}
+@keyframes logo {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    40%{
+        left: 20%;
+        top: 50%;
+        transform: rotate(360deg);
+    }
+    80%{
+        left: 80%;
+        top: 700px;
+        transform: scale(2);
+        }
+
+        100%{
+            left: 0;
+            top: 0;
+        }
+
 }
