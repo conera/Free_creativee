@@ -51,14 +51,11 @@ header {
 .logo {
     display: flex;
     max-width: 300px;
-
-
+    animation: logos 5s ;
+    animation-duration:1s;
 }
 
-.logo a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.2s;
-}
+
 
 .logo p {
     margin-left: 22px;
@@ -69,6 +66,9 @@ header {
 .contacts {
     display: flex;
     justify-content: space-between;
+    animation: logos 5s ;
+    animation-duration:1s;
+
 }
 
 .contacts a {
@@ -79,6 +79,7 @@ header {
     border-radius: 20px;
     margin: 0px 12px 0px 12px;
     transition: 0.2s;
+
 
 }
 
@@ -100,6 +101,7 @@ header {
     padding: 7px 27px 7px 33px;
     margin-left: 0px;
 
+
 }
 
 /*///////////////////////////////////////*/
@@ -114,12 +116,14 @@ header {
     font-size: 55px;
     margin-bottom: 30px;
     Line-height: 55px;
+
 }
 
 .sub_title {
     margin-bottom: 65px;
     font-size: 34px;
     Line-height: 37px;
+
 }
 /*.btn_header_links{*/
 /*    display: flex;*/
@@ -130,6 +134,8 @@ header {
     padding: 23px 47px;
     color: #000;
     transition: 0.3s;
+    animation: logos 5s ;
+    animation-duration:1s;
 }
 
 .btn_link:hover {
@@ -547,29 +553,19 @@ form .mar_none input{
     padding: 6px 6px 16px 16px;
     margin-bottom: 38px;
 }
-.logo{
-    position: relative;
-    animation: logos 5s infinite;
-}
-@keyframes logo {
-    0%{
-        left: 0;
-        top: 0;
-    }
-    40%{
-        left: 20%;
-        top: 50%;
-        transform: rotate(360deg);
-    }
-    80%{
-        left: 80%;
-        top: 700px;
-        transform: scale(2);
-        }
+/*.logo{
+    animation: logos 5s ;
+    animation-duration:1s;
+}*/
+@keyframes logos {
 
-        100%{
-            left: 0;
-            top: 0;
-        }
+    0% {
+        transform: scale(0);
+
+    }
+    100% {
+        transform: scale(100%);
+
+    }
 
 }
