@@ -16,6 +16,8 @@ div, p, input, button, form, span, a, ul, li {
 }
 p{
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -175,7 +177,15 @@ color: #FFFFFF;
     font-size: 38px;
 
 }
-
+/*article .column1:before{*/
+/*    content: "1";*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    font-size: 55px;*/
+/*    Line-height: 55px;*/
+/*    top: -24px;*/
+/*    right: 8px;*/
+/*}*/
 .paragrph_set p:first-child{
     margin-bottom: 30px;
 }
@@ -218,6 +228,7 @@ color: #FFFFFF;
     Line-height: 25px;      /* lh: 19px*/
     display: flex;
 }
+
 .column1{
     max-width: 123px;
 }

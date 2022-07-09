@@ -23,7 +23,7 @@
         flex-wrap: wrap
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     .container{
         width: 690px;
         margin: 0 auto;
@@ -85,58 +85,14 @@
     .heading_three{
         line-height: 35px;
     }
-    .advantages{
-        display: block;
-    }
-    .box{
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .first_let{
-        font-size: 35px;
-        line-height: 35px;
-        right: 0px;
-        top: 0px;
 
-    }
-    .column1{
-        max-width: 75%;
-        margin-right: 0px;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column2{
-        max-width: 75%;
-        margin: 0px;
+    .advantages{
         display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    .column3{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column4{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column5{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
+
+
     .reverse{
         flex-direction: column-reverse;
     }
@@ -284,21 +240,24 @@
 
 }
 @media only screen and (max-width: 576px) {
-    .container{
+    .container {
         width: 510px;
         margin: 0 auto;
 
     }
-    .section_header{
+
+    .section_header {
         padding: 145px 0px 0px;
     }
-    .title{
+
+    .title {
         color: #ffff;
         font-weight: 300;
         font-size: 30px;
         line-height: 33px;
     }
-    .sub_title{
+
+    .sub_title {
         color: #ffff;
         font-weight: 300;
         font-size: 20px;
@@ -306,66 +265,78 @@
         max-width: 185px;
         margin-bottom: 25px;
     }
-    .btn_header_links{
+
+    .btn_header_links {
 
         flex-direction: column-reverse;
         margin-right: 88px;
     }
-    .btn_link{
+
+    .btn_link {
         display: inline-block;
         font-size: 15px;
     }
-    .btn_header_links a:last-child{
+
+    .btn_header_links a:last-child {
         margin-bottom: 35px;
     }
-    .wrapper{
+
+    .wrapper {
         flex-direction: column;
         align-items: stretch;
     }
-    .contacts{
+
+    .contacts {
         display: none;
     }
-    .section_header{
-        background: url("../images/responsive768.jpg") no-repeat center/cover ;
+
+    .section_header {
+        background: url("../images/responsive768.jpg") no-repeat center/cover;
         height: 100vh;
     }
-    .image_branded_style{
+
+    .image_branded_style {
         width: 100%;
     }
-    .img_sectionn{
+
+    .img_sectionn {
         margin-bottom: 30px;
     }
-    .image{
+
+    .image {
         width: 100%;
     }
-    .uniq_set{
+
+    .uniq_set {
         margin-left: 0;
 
     }
-    .heading_three{
+
+    .heading_three {
         line-height: 35px;
     }
-    .advantages{
-        display: block;
-    }
-    .box{
+
+    .box {
         justify-content: space-between;
         align-items: flex-end;
     }
-    .first_let{
+
+    .first_let {
         font-size: 35px;
         line-height: 35px;
         right: 0px;
         top: 0px;
 
     }
-    .column1{
+
+    .column1 {
         max-width: 75%;
         margin-right: 0px;
         font-size: 15px;
         line-height: 21px;
     }
-    .column2{
+
+    .column2 {
         max-width: 75%;
         margin: 0px;
         display: flex;
@@ -373,7 +344,8 @@
         font-size: 15px;
         line-height: 21px;
     }
-    .column3{
+
+    .column3 {
         max-width: 75%;
         margin: 0px;
         display: flex;
@@ -381,7 +353,8 @@
         font-size: 15px;
         line-height: 21px;
     }
-    .column4{
+
+    .column4 {
         max-width: 75%;
         margin: 0px;
         display: flex;
@@ -389,7 +362,8 @@
         font-size: 15px;
         line-height: 21px;
     }
-    .column5{
+
+    .column5 {
         max-width: 75%;
         margin: 0px;
         display: flex;
@@ -397,156 +371,191 @@
         font-size: 15px;
         line-height: 21px;
     }
-    .reverse{
+
+    .reverse {
         flex-direction: column-reverse;
     }
-    .heading_four{
+
+    .heading_four {
         font-size: 32px;
         line-height: 35px;
     }
-    .image_branded_style{
+
+    .image_branded_style {
         margin-bottom: 30px;
     }
-    .cost_paragraph{
+
+    .cost_paragraph {
         font-size: 15px;
     }
-    .project{
+
+    .project {
         margin-left: 0;
         margin-bottom: 60px;
         padding: 13px 47px;
         font-size: 18px;
         max-width: 231px;
     }
-    .wrap_amperia{
+
+    .wrap_amperia {
         flex-direction: row;
         justify-content: space-between;
     }
-    .amperia{
+
+    .amperia {
         font-size: 35px;
         line-height: 35px;
     }
-    .img_section3{
+
+    .img_section3 {
         margin-bottom: 15px;
     }
-    .amperia_paragraph{
+
+    .amperia_paragraph {
         margin-bottom: 50px;
         font-size: 15px;
         line-height: 21px;
 
     }
-    .add_margin{
+
+    .add_margin {
         margin-bottom: 30px;
     }
 
-    .blue{
+    .blue {
         margin: 0;
         font-size: 20px;
         line-height: 22px;
-        display: inline-block;      /*Как выровнять по центру? */
+        display: inline-block; /*Как выровнять по центру? */
         align-items: center;
         padding: 20px 47px;
     }
-    .section_application{
+
+    .section_application {
         padding: 119px 0px 50px;
     }
+
     /*.section_application p{*/
     /*    font-size: 15px;*/
     /*    line-height: 21px;*/
     /*}*/
-    .img_dislife_box_mobile{
+    .img_dislife_box_mobile {
         display: inline-block;
         margin-bottom: 34px;
     }
-    .img_dislife_box{
+
+    .img_dislife_box {
         display: none;
     }
-    .title_application{
+
+    .title_application {
         font-size: 32px;
         line-height: 35px;
     }
-    .wrapper_second{
+
+    .wrapper_second {
         flex-direction: column;
         margin: 0;
     }
-    .d_flexx{
+
+    .d_flexx {
         flex-direction: column;
     }
-    .margin_right{
+
+    .margin_right {
         max-width: 290px;
         margin-bottom: 10px;
     }
-    .bb{
+
+    .bb {
         margin-bottom: 31px;
     }
-    .stages_of_creation{
+
+    .stages_of_creation {
         padding: 50px 0px;
     }
-    .heading_creation{
+
+    .heading_creation {
         font-size: 35px;
         line-height: 35px;
         margin-bottom: 35px;
     }
-    .wrap_add{
+
+    .wrap_add {
         align-items: center;
     }
-    .icon_box{
+
+    .icon_box {
         margin: 0 auto;
         text-align: center;
         margin-bottom: 40px;
     }
-    .rest_box{
+
+    .rest_box {
         text-align: center;
 
     }
-    .wrap_add div:nth-child(2){
-        margin:0;
+
+    .wrap_add div:nth-child(2) {
+        margin: 0;
         margin-bottom: 42px;
     }
-    .wrap_add div:nth-child(3){
-        margin:0;
+
+    .wrap_add div:nth-child(3) {
+        margin: 0;
         margin-bottom: 42px;
     }
-    .wrap_add div:nth-child(4){
-        margin:0;
+
+    .wrap_add div:nth-child(4) {
+        margin: 0;
 
     }
-    .guarantee_of_quality{
+
+    .guarantee_of_quality {
         display: none;
     }
-    .footer{
-        padding: 40px 0px 20px ;
+
+    .footer {
+        padding: 40px 0px 20px;
     }
-    .headin_contact_us{
+
+    .headin_contact_us {
         font-size: 34px;
         line-height: 37px;
     }
-    .margin_right_box{
+
+    .margin_right_box {
         margin-right: 0;
     }
-    .mob_mar{
+
+    .mob_mar {
         margin-bottom: 60px;
     }
-    .cont_info{
+
+    .cont_info {
         font-size: 20px;
         line-height: 22px;
     }
-    .d_flex{
+
+    .d_flex {
         margin-bottom: 90px;
     }
-    .in_media{
+
+    .in_media {
         flex-direction: column;
     }
-    .blue_bg{
+
+    .blue_bg {
         margin-bottom: 20px;
         max-width: 289px;
         width: 100%;
     }
-
-
-
-
 }
-@media only screen and (max-width: 425px) {
+
+
+
+
+@media only screen and (max-width: 426px) {
     .container{
         width: 294px;
         margin: 0 auto;
@@ -606,58 +615,28 @@
     .heading_three{
         line-height: 35px;
     }
+
     .advantages{
-        display: block;
-    }
-    .box{
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
         align-items: flex-end;
     }
-    .first_let{
+
+    .box {
+        width: 212px;
+        display: block;
+        text-align: initial;
+        margin-bottom: 37px;
+    }
+
+    .first_let {
         font-size: 35px;
         line-height: 35px;
-        right: 0px;
+        right: 80px;
         top: 0px;
+        margin-right: -20px;
+    }
 
-    }
-    .column1{
-        max-width: 75%;
-        margin-right: 0px;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column2{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column3{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column4{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column5{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
     .reverse{
         flex-direction: column-reverse;
     }
@@ -802,7 +781,7 @@
 
 
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .container{
         width: 294px;
         margin: 0 auto;
@@ -863,57 +842,27 @@
         line-height: 35px;
     }
     .advantages{
-        display: block;
-    }
-    .box{
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
         align-items: flex-end;
     }
-    .first_let{
+
+    .box {
+        width: 212px;
+        display: block;
+        text-align: initial;
+        margin-bottom: 37px;
+    }
+
+    .first_let {
         font-size: 35px;
         line-height: 35px;
-        right: 0px;
+        right: 80px;
         top: 0px;
+        margin-right: -20px;
+    }
 
-    }
-    .column1{
-        max-width: 75%;
-        margin-right: 0px;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column2{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column3{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column4{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column5{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
+
     .reverse{
         flex-direction: column-reverse;
     }
@@ -1116,9 +1065,7 @@
     .heading_three{
         line-height: 35px;
     }
-    .advantages{
-        display: block;
-    }
+
     .box{
         justify-content: space-between;
         align-items: flex-end;
@@ -1360,60 +1307,24 @@
 
     }
     .heading_three{
-        line-height: 35px;
+        line-height: 30px;
+        Font-size: 35px;
     }
-    .advantages{
-        display: block;
-    }
-    .box{
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .first_let{
-        font-size: 35px;
-        line-height: 35px;
-        right: 0px;
-        top: 0px;
 
+    .box {
+        width: 212px;
+        display: block;
+        text-align: initial;
+        margin-bottom: 37px;
     }
-    .column1{
-        max-width: 75%;
-        margin-right: 0px;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column2{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column3{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column4{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
-    .column5{
-        max-width: 75%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 15px;
-        line-height: 21px;
-    }
+
+.first_let {
+    font-size: 35px;
+    line-height: 35px;
+    right: 80px;
+    top: 0px;
+    margin-right: -20px;
+}
     .reverse{
         flex-direction: column-reverse;
     }
