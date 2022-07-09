@@ -1,0 +1,19 @@
+<section class="surprise_someone_section">
+    <div class="central_container">
+        <div class="d_flex add_wrapper">
+<!--           <div class="img_size_snack"> -->
+               <img class="img_snack" src="images/scnack_box.jpg" alt="snacks and drinks">
+<!--           </div>-->
+            <div class="add_wrap">
+                <h2 class="heading_surprise"><span>Surprise Someone</span> <br>Working from Home</h2>
+                <p class="home_box">Do you have a colleague or family member working hard at home? Our Working From Home box
+                    of snacks and drinks is the perfect way to put a smile on their face, delivered direct to their door.
+                </p>
+                <p class="home_box">To buy for a large group of people, get in touch and we can discuss bespoke bundles and
+                    personalised messaging.
+                </p>
+                <a class="btn_buy_now" href="#">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
